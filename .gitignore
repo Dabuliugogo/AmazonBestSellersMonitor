@@ -1,0 +1,34 @@
+# BSR监控工具 — 本机专属与运行时数据（不入库）
+
+# 本机 Python 路径记录（每台机器不同）
+python_local.txt
+
+# 本机配置（含店铺名/店铺关键词等本机信息）
+data/config.json
+
+# 运行时数据目录
+data/snapshots/
+data/changes/
+data/reports/
+data/raw/
+data/exports/
+
+# 运行时状态文件
+data/latest.json
+data/history.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+
+# 打包/构建产物
+dist/
+build/
+*.spec
+
+# 临时目录
+temp/
+tmp/

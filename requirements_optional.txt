@@ -1,0 +1,11 @@
+# BSR监控工具 - 可选增强依赖（仅以下场景需要）
+# 1) pyinstaller    ：build_exe.bat 打包免安装 exe 时使用
+# 2) playwright     ：浏览器"滚动抓满TOP100"模式使用（复用本机 Edge/Chrome，不下载内核）
+#                    未安装时工具自动回退 HTTP 直抓（最多约 60 款）
+# 3) requests / beautifulsoup4 ：增强解析可选依赖（HTTP 直抓主路径用标准库即可）
+# 日常 HTTP 直抓 + 离线分析不需要安装本文件。
+# 安装：pip install -r requirements_optional.txt
+pyinstaller
+requests
+beautifulsoup4
+playwright
